@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mult_printers *.css
+recursive-include mult_printers *.csv
+recursive-include mult_printers *.html
+recursive-include mult_printers *.ico
+recursive-include mult_printers *.js
+recursive-include mult_printers *.json
+recursive-include mult_printers *.md
+recursive-include mult_printers *.png
+recursive-include mult_printers *.py
+recursive-include mult_printers *.svg
+recursive-include mult_printers *.txt
+recursive-exclude mult_printers *.pyc
