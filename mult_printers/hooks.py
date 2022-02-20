@@ -95,13 +95,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"POS Invoice": {
+		"on_submit": "mult_printers.send_to_printers.send_to_printers",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
